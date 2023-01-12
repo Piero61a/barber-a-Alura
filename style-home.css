@@ -13,7 +13,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 940px;
-    margin: 0 auto;
+    margin: 0 auto 3px;
 }
 .ul-nav{
     display: flex;
@@ -71,7 +71,7 @@ em{
 }
 .p-sect2{
     text-align: center;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 .mapa{
     width: 940px;
@@ -80,6 +80,7 @@ em{
 /* Termina sect y comienza diferenciales */
 .diferenciales{
     background-color: #888888;
+    padding-bottom: 3em;
 }
 .h1-diferenciales{
     text-align: center;
@@ -93,8 +94,38 @@ em{
 }
 .ul-diferenciales{
     width: 40%;
+    display: inline-block;
+    vertical-align: top;
 }
-
+.li-dif{
+    margin: 0 0 0.5em 0;
+}
+.li-dif::before{
+    content: "★";
+    margin: 0 2px;
+}
+.li-dif:first-child{
+    font-weight: bold;
+}
 .img-diferenciales{
     width: 60%;
 }
+.video{
+    width: 560px;
+    margin: 1em auto;  
+}
+/* termina diferenciales e inicia footer */
+footer{
+    background: url(imagenes/bg.jpg);
+    padding: 55px;
+}
+.footer-img{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.p-copy{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
