@@ -1,0 +1,100 @@
+/* fuente */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Empezamos la cabecera */
+header{
+    padding: 20px;
+    background-color: #bbb;
+    
+}
+.div-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 940px;
+    margin: 0 auto;
+}
+.ul-nav{
+    display: flex;
+    gap: 20px;
+}
+.ul-nav a{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.ul-nav a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+/* termina la cabecera y empeza el banner */
+
+.banner{
+    width: 100%;;
+}
+/* termina el banner y empieza la  section y section 2  */
+.sect{
+    margin: 0 auto;
+    background: #FEFEFE;
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+strong{
+    font-weight: bold;
+}
+
+.utensilios{
+    margin: 0 1.25em 1.25em 0;
+    width: 120px;
+    float: left;
+}
+.sect2{
+    background: linear-gradient(#FEFEFE, #888888);
+    margin-top: 3em;
+    padding-bottom: 6em;
+}
+.h1-sect, .h1-sect2{
+    text-align: center;
+    font-size: 2em;
+    clear: left;
+    margin: 0 0 1em;
+}
+em{
+    font-style: italic;
+}
+.p-sect{
+    margin: 0 0 1em;
+}
+.p-sect2{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.mapa{
+    width: 940px;
+    margin: 0 auto;
+}
+/* Termina sect y comienza diferenciales */
+.diferenciales{
+    background-color: #888888;
+}
+.h1-diferenciales{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+.container-dif{
+    width: 48%;
+    margin: 0 auto;
+    display: flex;
+}
+.ul-diferenciales{
+    width: 40%;
+}
+
+.img-diferenciales{
+    width: 60%;
+}
