@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="div-header">
@@ -25,11 +26,41 @@
         </div>
     </header>
     <main>
-        
+        <form>
+            <fieldset class="form-pt1">
+                <label for="Nombre">Nombre y Apellido</label><br>
+                <input class="inp-form-pt1" type="text" name="Nombre"><br>
+                <label for="email">Correo Electrónico</label><br>
+                <input class="inp-form-pt1" type="email" name="email" placeholder="email@domio.com"><br>
+                <label for="tel">Teléfono</label><br>
+                <input class="inp-form-pt1" type="tel" name="tel" placeholder="(XX)XXXX-XXXX"><br>
+                <label for="Mensaje">Mensaje</label><br>
+                <textarea name="Mensaje"></textarea><br>
+            </fieldset>
+
+            <fieldset class="form-pt2">
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+                <input type="radio" name="radio" value="Email"> Email<br>
+                <input type="radio" name="radio" value="Email"> Teléfono<br>
+                <input id="check" type="radio" name="radio" value="Email" checked> WhatsApp<br>
+            </fieldset>
+
+            <fieldset class="form-pt3">
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
+                <select>
+                    <option value="Mañana">Mañana</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noche">Noche</option>
+                </select><br><br>
+                <input class="checkbox" type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?
+            </fieldset>
+                
+            <input class="enviar" type="submit" value="Enviar formulario">
+        </form>
     </main>
     <footer>
         <div class="footer-img">
-            <img  src="imagenes/logo-blanco.png" alt="logo">
+            <img src="imagenes/logo-blanco.png" alt="logo">
         </div>
         <p class="p-copy">&copy; Copyright Barbería Alura - 2020</p>
     </footer>
