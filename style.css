@@ -1,0 +1,40 @@
+/* estilos de productos */
+.div-main{
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em auto;
+    gap: 0.5em;
+}
+.div-items{
+    border: 1px solid black;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.div-items:hover{
+    /* transform: scale(1.1); */
+    border:2px solid darkorange;
+}
+.div-items h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.div-items:hover h1{
+    transform: scale(1.1);
+    color: darkorange;
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.p-main{
+    font-size: 16px;
+}
