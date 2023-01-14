@@ -116,3 +116,17 @@ th, td{
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+/* media queries de productos */
+@media screen and (max-width:975px) {
+    .div-main{
+        width: auto;
+        flex-direction: column;
+    }
+    .div-items img{
+        width: 100%;
+    }
+    .div-items:hover h1{
+        transform: none;
+    }
+}
